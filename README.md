@@ -63,7 +63,7 @@ The program is using Pyqt5 instead of the 4th version of PyQt.
 
 ### Windows:
 ````
-python pyqt_serialterm.py -c com2 -b 9600 -x
+python connect-example-v2.py -c com2 -b 9600 -x
 ````
 ### Linux:
 
