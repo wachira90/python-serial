@@ -1,5 +1,4 @@
-__author__ = 'Mehmet Cagri Aksoy - github.com/mcagriaksoy'
-
+#!python
 import sys, serial, serial.tools.list_ports, warnings
 from PyQt5.QtCore import QSize, QRect, QObject, pyqtSignal, QThread, pyqtSignal, pyqtSlot
 import time
