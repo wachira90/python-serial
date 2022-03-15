@@ -1,4 +1,3 @@
-// 'Mehmet Cagri Aksoy - github.com/mcagriaksoy'
 // VERSION V1.1
 
 void setup() {
