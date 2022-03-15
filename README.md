@@ -10,7 +10,7 @@ CHANGELOG:
 For serial communication tests, the "serial.ino" file can be investigated!
 
 New UI:
-![Project](https://github.com/mcagriaksoy/Serial-Communication-GUI-Program/blob/master/1.png)
+![Project](https://github.com/wachira90/python-serial/blob/6a0a337674758e6a1895ad10eb8222a331faf356/1.png)
 
 
 --------------------------------------------------
@@ -55,4 +55,24 @@ Thread2 send data to serially connected hardware (Arduino, esp32, raspberry pi, 
 
 # PyQt5
 The program is using Pyqt5 instead of the 4th version of PyQt.
+
+
+
+## example 
+
+
+### Windows:
+````
+python pyqt_serialterm.py -c com2 -b 9600 -x
+````
+### Linux:
+
+````
+python connect-example-v2.py -c /dev/ttyUSB0 -b 115200
+````
+### add group permission
+````
+sudo usermod -a -G dialout $USER
+````
+
 
